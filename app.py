@@ -13,8 +13,11 @@ st.set_page_config(page_icon="✈️", layout="wide")
 st.title("🏖️ PlanMyTrip")
 if __name__ == "__main__":
 
-    st.subheader("Let AI agents plan your next vacation!",
-                 divider="rainbow", anchor=False)
+    st.subheader("🌴 Let AI agents plan your next vacation!")
+    
+    st.markdown("PlanMyTrip utilizes the CrewAI framework to automate and elevate the trip planning process, featuring an intuitive Streamlit interface. This project showcases the seamless collaboration and execution of complex tasks by autonomous AI agents, enhanced by the interactive and accessible nature of Strealit.")
+
+    st.subheader("",divider="rainbow", anchor=False)
 
     import datetime
 
