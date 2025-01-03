@@ -2,3 +2,4 @@ crewai
 unstructured
 langchain
 langchain-community
+pysqlite3-binary
